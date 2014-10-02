@@ -1,0 +1,20 @@
+{
+	"name": "crimeasmev/htmltodocx",
+	"description": "htmltodocx",
+	"keywords": ["html", "docx"],
+	"homepage": "https://github.com/crimeasmev/htmltodocx",
+	"type": "library",
+	"require": {
+		"php": ">=5.2.4",
+		"ext-mbstring": "*"
+	},
+	"authors": [
+		{
+			"name": "Vitalik"
+		}
+	],
+	"autoload": {
+		"classmap": ["h2d_htmlconverter.php"],
+		"files": ["h2d_htmlconverter.php"]
+	}
+}
